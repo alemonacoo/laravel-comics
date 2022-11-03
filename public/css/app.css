@@ -1,4 +1,49 @@
-* {
-  color: red;
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  padding: 10px 10%;
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+header img {
+  height: 100%;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding-right: 10px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header li:hover {
+  color: blue;
+  cursor: pointer;
+  border-bottom: 1px solid blue;
+}
+
+.jumbotron {
+  color: white;
+  height: 30vw;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  width: 100%;
 }
 
