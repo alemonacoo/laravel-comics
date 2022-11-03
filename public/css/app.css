@@ -47,3 +47,54 @@ header li:hover {
   width: 100%;
 }
 
+main .comics-container {
+  padding: 10px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50vh;
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+
+main .comics-container .card {
+  min-height: 170px;
+  width: 16.6666666667%;
+  padding: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+main .comics-container .card img {
+  width: 100%;
+  height: 75%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .blue-section {
+  padding: 10px 10%;
+  display: flex;
+  background-color: rgb(23, 133, 245);
+  width: 100vw;
+}
+
+main .blue-section ul {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+main .blue-section ul li {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: white;
+}
+
+main .blue-section ul li img {
+  height: 40%;
+  width: auto;
+  padding-right: 10px;
+}
+
